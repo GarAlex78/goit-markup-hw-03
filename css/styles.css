@@ -90,9 +90,14 @@ img {
   text-transform: uppercase;
   color: var(--primary-brand-color);
 }
-.header_logo .logo_span {
+.header_logo {
+  margin-right: 76px;
+
+  /* color: var(--dark-color); */
+  /* padding-right: 76px; */
+}
+.header_logo_span {
   color: var(--dark-color);
-  padding-right: 76px;
 }
 .nav_item_link {
   font-weight: 500;
@@ -137,10 +142,9 @@ img {
 
 .section_baner {
   background-color: var(--dark-color);
-}
-.section_strategy {
   padding: 188px 0;
 }
+
 .baner_title {
   font-weight: 700;
   font-size: 56px;
@@ -271,8 +275,7 @@ img {
   /* margin-bottom: 48px; */
 }
 .portfolio-wrap {
-  padding: 32px 0;
-  padding-left: 16px;
+  padding: 32px 16px;
   border-bottom: solid 1px #e7e9fc;
   border-left: solid 1px #e7e9fc;
   border-right: solid 1px #e7e9fc;
