@@ -141,9 +141,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--body-text-color);
 }
-.left {
-  padding-left: 40px;
-}
 
 /* section */
 
@@ -313,12 +310,7 @@ img {
   background-color: var(--dark-color);
   padding: 100px 0;
 }
-.wrap-footer {
-  width: 264px;
-  /* padding-bottom: 100px;
-  padding-top: 100px; */
-  margin: 0;
-}
+
 .logo_span {
   color: var(--light-color);
   /* margin-bottom: 16px; */
@@ -328,8 +320,8 @@ img {
   margin-bottom: 16px;
 }
 .footer_text {
+  max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
-  /* margin-top: 16px; */
 }
